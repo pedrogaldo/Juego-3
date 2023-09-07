@@ -23,16 +23,16 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            //tamborRojo.GetComponent<AudioSource>().enabled = true;
-            tamborRojo.color = Color.red;
+            tamborRojo.GetComponent<AudioSource>().enabled = true;
+            tamborRojo.color = Color.white;
 
         }
 
         else
         {
-           // GetComponent<AudioSource>().enabled = false;
-            tamborRojo = GetComponent<SpriteRenderer>();
-            tamborRojo.color = Color.grey;
+            tamborRojo.GetComponent<AudioSource>().enabled = false;
+            tamborRojo.GetComponent<SpriteRenderer>();
+            tamborRojo.color = Color.clear;
         }
     }
 }
