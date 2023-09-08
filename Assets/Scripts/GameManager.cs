@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
 
-        //Tambor Azul
+        //Tambor Azul (abajo)
         if (Input.GetKey(KeyCode.Space))
         {
             tamborAzul.GetComponent<AudioSource>().enabled = true;
@@ -30,8 +30,8 @@ public class GameManager : MonoBehaviour
         }
 
 
-        //tambor verde
-        if (Input.GetKey(KeyCode.Y))
+        //Tambor Verde (derecha)
+        else if (Input.GetKey(KeyCode.Y))
         {
             tamborVerde.GetComponent<AudioSource>().enabled = true;
             tamborVerde.color = Color.white;
@@ -92,6 +92,12 @@ public class GameManager : MonoBehaviour
             tamborVerde.color = Color.white;
         }
 
+        else if (Input.GetKey(KeyCode.B))
+        {
+            tamborVerde.GetComponent<AudioSource>().enabled = true;
+            tamborVerde.color = Color.white;
+        }
+
         else if (Input.GetKey(KeyCode.M))
         {
             tamborVerde.GetComponent<AudioSource>().enabled = true;
@@ -110,6 +116,129 @@ public class GameManager : MonoBehaviour
             tamborVerde.color = Color.white;
         }
 
+        else if (Input.GetKey(KeyCode.Semicolon))
+        {
+            tamborVerde.GetComponent<AudioSource>().enabled = true;
+            tamborVerde.color = Color.white;
+        }
+
+
+
+        //Tambor Rojo (izquierda)
+
+
+        else if (Input.GetKey(KeyCode.Tab))
+        {
+            tamborRojo.GetComponent<AudioSource>().enabled = true;
+            tamborRojo.color = Color.white;
+        }
+
+        else if (Input.GetKey(KeyCode.CapsLock))
+        {
+            tamborRojo.GetComponent<AudioSource>().enabled = true;
+            tamborRojo.color = Color.white;
+        }
+
+        else if (Input.GetKey(KeyCode.LeftShift))
+        {
+            tamborRojo.GetComponent<AudioSource>().enabled = true;
+            tamborRojo.color = Color.white;
+        }
+
+        else if (Input.GetKey(KeyCode.Minus))
+        {
+            tamborRojo.GetComponent<AudioSource>().enabled = true;
+            tamborRojo.color = Color.white;
+        }
+
+        else if (Input.GetKey(KeyCode.Q))
+        {
+            tamborRojo.GetComponent<AudioSource>().enabled = true;
+            tamborRojo.color = Color.white;
+        }
+
+        else if (Input.GetKey(KeyCode.W))
+        {
+            tamborRojo.GetComponent<AudioSource>().enabled = true;
+            tamborRojo.color = Color.white;
+        }
+
+        else if (Input.GetKey(KeyCode.E))
+        {
+            tamborRojo.GetComponent<AudioSource>().enabled = true;
+            tamborRojo.color = Color.white;
+        }
+
+        else if (Input.GetKey(KeyCode.R))
+        {
+            tamborRojo.GetComponent<AudioSource>().enabled = true;
+            tamborRojo.color = Color.white;
+        }
+
+        else if (Input.GetKey(KeyCode.T))
+        {
+            tamborRojo.GetComponent<AudioSource>().enabled = true;
+            tamborRojo.color = Color.white;
+        }
+
+        else if (Input.GetKey(KeyCode.A))
+        {
+            tamborRojo.GetComponent<AudioSource>().enabled = true;
+            tamborRojo.color = Color.white;
+
+        }
+
+        else if (Input.GetKey(KeyCode.S))
+        {
+            tamborRojo.GetComponent<AudioSource>().enabled = true;
+            tamborRojo.color = Color.white;
+        }
+
+        else if (Input.GetKey(KeyCode.D))
+        {
+            tamborRojo.GetComponent<AudioSource>().enabled = true;
+            tamborRojo.color = Color.white;
+        }
+
+        else if (Input.GetKey(KeyCode.F))
+        {
+            tamborRojo.GetComponent<AudioSource>().enabled = true;
+            tamborRojo.color = Color.white;
+        }
+
+        else if (Input.GetKey(KeyCode.G))
+        {
+            tamborRojo.GetComponent<AudioSource>().enabled = true;
+            tamborRojo.color = Color.white;
+        }
+
+        else if (Input.GetKey(KeyCode.Z))
+        {
+            tamborRojo.GetComponent<AudioSource>().enabled = true;
+            tamborRojo.color = Color.white;
+        }
+
+        else if (Input.GetKey(KeyCode.X))
+        {
+            tamborRojo.GetComponent<AudioSource>().enabled = true;
+            tamborRojo.color = Color.white;
+        }
+
+        else if (Input.GetKey(KeyCode.C))
+        {
+            tamborRojo.GetComponent<AudioSource>().enabled = true;
+            tamborRojo.color = Color.white;
+        }
+
+        else if (Input.GetKey(KeyCode.V))
+        {
+            tamborRojo.GetComponent<AudioSource>().enabled = true;
+            tamborRojo.color = Color.white;
+        }
+
+
+
+
         else
         {
             tamborVerde.GetComponent<AudioSource>().enabled = false;
@@ -119,6 +248,10 @@ public class GameManager : MonoBehaviour
             tamborAzul.GetComponent<AudioSource>().enabled = false;
             tamborAzul.GetComponent<SpriteRenderer>();
             tamborAzul.color = Color.clear;
+
+            tamborRojo.GetComponent<AudioSource>().enabled = false;
+            tamborRojo.GetComponent<SpriteRenderer>();
+            tamborRojo.color = Color.clear;
         }
 
     }
