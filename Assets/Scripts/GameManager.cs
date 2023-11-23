@@ -46,6 +46,237 @@ public class GameManager : MonoBehaviour
         {
             Canvas1.GetComponent<AudioSource>().enabled = false;
             backgroundPausa.GetComponent<SpriteRenderer>().color = Color.clear;
+
+
+            //Tambor Azul (abajo)
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                srcAzul.clip = sndAzul;
+                srcAzul.PlayOneShot(sndAzul);
+            }
+
+
+            //Tambor Verde (derecha)
+            else if (Input.GetKeyDown(KeyCode.Y))
+            {
+                srcVerde.clip = sndVerde;
+                srcVerde.PlayOneShot(sndVerde);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.U))
+            {
+                srcVerde.clip = sndVerde;
+                srcVerde.PlayOneShot(sndVerde);
+            }
+
+
+            else if (Input.GetKeyDown(KeyCode.I))
+            {
+                srcVerde.clip = sndVerde;
+                srcVerde.PlayOneShot(sndVerde);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.O))
+            {
+                srcVerde.clip = sndVerde;
+                srcVerde.PlayOneShot(sndVerde);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.P))
+            {
+                srcVerde.clip = sndVerde;
+                srcVerde.PlayOneShot(sndVerde);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.H))
+            {
+                srcVerde.clip = sndVerde;
+                srcVerde.PlayOneShot(sndVerde);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.J))
+            {
+                srcVerde.clip = sndVerde;
+                srcVerde.PlayOneShot(sndVerde);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.K))
+            {
+                srcVerde.clip = sndVerde;
+                srcVerde.PlayOneShot(sndVerde);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.L))
+            {
+                srcVerde.clip = sndVerde;
+                srcVerde.PlayOneShot(sndVerde);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.N))
+            {
+                srcVerde.clip = sndVerde;
+                srcVerde.PlayOneShot(sndVerde);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.B))
+            {
+                srcVerde.clip = sndVerde;
+                srcVerde.PlayOneShot(sndVerde);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.M))
+            {
+                srcVerde.clip = sndVerde;
+                srcVerde.PlayOneShot(sndVerde);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.Comma))
+            {
+                srcVerde.clip = sndVerde;
+                srcVerde.PlayOneShot(sndVerde);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.Colon))
+            {
+                srcVerde.clip = sndVerde;
+                srcVerde.PlayOneShot(sndVerde);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.Semicolon))
+            {
+                srcVerde.clip = sndVerde;
+                srcVerde.PlayOneShot(sndVerde);
+            }
+
+
+
+            //Tambor Rojo (izquierda)
+
+
+            else if (Input.GetKeyDown(KeyCode.Tab))
+            {
+                srcRojo.clip = sndRojo;
+                srcRojo.PlayOneShot(sndRojo);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.CapsLock))
+            {
+                srcRojo.clip = sndRojo;
+                srcRojo.PlayOneShot(sndRojo);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                srcRojo.clip = sndRojo;
+                srcRojo.PlayOneShot(sndRojo);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.Minus))
+            {
+                srcRojo.clip = sndRojo;
+                srcRojo.PlayOneShot(sndRojo);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.Q))
+            {
+                srcRojo.clip = sndRojo;
+                srcRojo.PlayOneShot(sndRojo);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.W))
+            {
+                srcRojo.clip = sndRojo;
+                srcRojo.PlayOneShot(sndRojo);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.E))
+            {
+                srcRojo.clip = sndRojo;
+                srcRojo.PlayOneShot(sndRojo);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.R))
+            {
+                srcRojo.clip = sndRojo;
+                srcRojo.PlayOneShot(sndRojo);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.T))
+            {
+                srcRojo.clip = sndRojo;
+                srcRojo.PlayOneShot(sndRojo);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.A))
+            {
+                srcRojo.clip = sndRojo;
+                srcRojo.PlayOneShot(sndRojo);
+
+            }
+
+            else if (Input.GetKeyDown(KeyCode.S))
+            {
+                srcRojo.clip = sndRojo;
+                srcRojo.PlayOneShot(sndRojo);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.D))
+            {
+                srcRojo.clip = sndRojo;
+                srcRojo.PlayOneShot(sndRojo);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.F))
+            {
+                srcRojo.clip = sndRojo;
+                srcRojo.PlayOneShot(sndRojo);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.G))
+            {
+                srcRojo.clip = sndRojo;
+                srcRojo.PlayOneShot(sndRojo);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.Z))
+            {
+                srcRojo.clip = sndRojo;
+                srcRojo.PlayOneShot(sndRojo);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.X))
+            {
+                srcRojo.clip = sndRojo;
+                srcRojo.PlayOneShot(sndRojo);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.C))
+            {
+                srcRojo.clip = sndRojo;
+                srcRojo.PlayOneShot(sndRojo);
+            }
+
+            else if (Input.GetKeyDown(KeyCode.V))
+            {
+                srcRojo.clip = sndRojo;
+                srcRojo.PlayOneShot(sndRojo);
+            }
+
+
+
+
+            else
+            {
+                //tamborVerde.GetComponent<AudioSource>().enabled = false;
+
+                //tamborAzul.GetComponent<AudioSource>().enabled = false;
+
+                //tamborRojo.GetComponent<AudioSource>().enabled = false;
+
+
+                //Canvas1.GetComponent<Canvas>().enabled = false;
+
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -60,236 +291,9 @@ public class GameManager : MonoBehaviour
         //
 
 
-
+        
         //Tambor Azul (abajo)
-        else if (Input.GetKeyDown(KeyCode.Space))
-        {
-            srcAzul.clip = sndAzul;
-            srcAzul.PlayOneShot(sndAzul);
-        }
 
-
-        //Tambor Verde (derecha)
-        else if (Input.GetKeyDown(KeyCode.Y))
-        {
-            srcVerde.clip = sndVerde;
-            srcVerde.PlayOneShot(sndVerde);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.U))
-        {
-            srcVerde.clip = sndVerde;
-            srcVerde.PlayOneShot(sndVerde);
-        }
-
-
-        else if (Input.GetKeyDown(KeyCode.I))
-        {
-            srcVerde.clip = sndVerde;
-            srcVerde.PlayOneShot(sndVerde);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.O))
-        {
-            srcVerde.clip = sndVerde;
-            srcVerde.PlayOneShot(sndVerde);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.P))
-        {
-            srcVerde.clip = sndVerde;
-            srcVerde.PlayOneShot(sndVerde);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.H))
-        {
-            srcVerde.clip = sndVerde;
-            srcVerde.PlayOneShot(sndVerde);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.J))
-        {
-            srcVerde.clip = sndVerde;
-            srcVerde.PlayOneShot(sndVerde);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.K))
-        {
-            srcVerde.clip = sndVerde;
-            srcVerde.PlayOneShot(sndVerde);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.L))
-        {
-            srcVerde.clip = sndVerde;
-            srcVerde.PlayOneShot(sndVerde);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.N))
-        {
-            srcVerde.clip = sndVerde;
-            srcVerde.PlayOneShot(sndVerde);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.B))
-        {
-            srcVerde.clip = sndVerde;
-            srcVerde.PlayOneShot(sndVerde);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.M))
-        {
-            srcVerde.clip = sndVerde;
-            srcVerde.PlayOneShot(sndVerde);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.Comma))
-        {
-            srcVerde.clip = sndVerde;
-            srcVerde.PlayOneShot(sndVerde);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.Colon))
-        {
-            srcVerde.clip = sndVerde;
-            srcVerde.PlayOneShot(sndVerde);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.Semicolon))
-        {
-            srcVerde.clip = sndVerde;
-            srcVerde.PlayOneShot(sndVerde);
-        }
-
-
-
-        //Tambor Rojo (izquierda)
-
-
-        else if (Input.GetKeyDown(KeyCode.Tab))
-        {
-            srcRojo.clip = sndRojo;
-            srcRojo.PlayOneShot(sndRojo);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.CapsLock))
-        {
-            srcRojo.clip = sndRojo;
-            srcRojo.PlayOneShot(sndRojo);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            srcRojo.clip = sndRojo;
-            srcRojo.PlayOneShot(sndRojo);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.Minus))
-        {
-            srcRojo.clip = sndRojo;
-            srcRojo.PlayOneShot(sndRojo);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.Q))
-        {
-            srcRojo.clip = sndRojo;
-            srcRojo.PlayOneShot(sndRojo);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.W))
-        {
-            srcRojo.clip = sndRojo;
-            srcRojo.PlayOneShot(sndRojo);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.E))
-        {
-            srcRojo.clip = sndRojo;
-            srcRojo.PlayOneShot(sndRojo);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.R))
-        {
-            srcRojo.clip = sndRojo;
-            srcRojo.PlayOneShot(sndRojo);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.T))
-        {
-            srcRojo.clip = sndRojo;
-            srcRojo.PlayOneShot(sndRojo);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.A))
-        {
-            srcRojo.clip = sndRojo;
-            srcRojo.PlayOneShot(sndRojo);
-
-        }
-
-        else if (Input.GetKeyDown(KeyCode.S))
-        {
-            srcRojo.clip = sndRojo;
-            srcRojo.PlayOneShot(sndRojo);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.D))
-        {
-            srcRojo.clip = sndRojo;
-            srcRojo.PlayOneShot(sndRojo);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.F))
-        {
-            srcRojo.clip = sndRojo;
-            srcRojo.PlayOneShot(sndRojo);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.G))
-        {
-            srcRojo.clip = sndRojo;
-            srcRojo.PlayOneShot(sndRojo);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.Z))
-        {
-            srcRojo.clip = sndRojo;
-            srcRojo.PlayOneShot(sndRojo);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.X))
-        {
-            srcRojo.clip = sndRojo;
-            srcRojo.PlayOneShot(sndRojo);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.C))
-        {
-            srcRojo.clip = sndRojo;
-            srcRojo.PlayOneShot(sndRojo);
-        }
-
-        else if (Input.GetKeyDown(KeyCode.V))
-        {
-            srcRojo.clip = sndRojo;
-            srcRojo.PlayOneShot(sndRojo);
-        }
-
-
-
-
-        else
-        {
-            //tamborVerde.GetComponent<AudioSource>().enabled = false;
-
-            //tamborAzul.GetComponent<AudioSource>().enabled = false;
-
-            //tamborRojo.GetComponent<AudioSource>().enabled = false;
-
-
-            //Canvas1.GetComponent<Canvas>().enabled = false;
-
-        }
 
     }
 
