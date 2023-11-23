@@ -945,6 +945,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1328649719}
   - component: {fileID: 1328649720}
+  - component: {fileID: 1328649721}
   m_Layer: 0
   m_Name: tambores
   m_TagString: Untagged
@@ -982,9 +983,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78f4055d09ba4ac4b816a5028e259a99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tamborRojo: {fileID: 633393151}
-  tamborAzul: {fileID: 1055376453}
-  tamborVerde: {fileID: 2100321268}
   srcRojo: {fileID: 633393153}
   srcVerde: {fileID: 2100321270}
   srcAzul: {fileID: 1055376455}
@@ -993,6 +991,21 @@ MonoBehaviour:
   sndVerde: {fileID: 8300000, guid: fe44108069948414ea51face88e257f7, type: 3}
   Canvas1: {fileID: 1682828288}
   backgroundPausa: {fileID: 1695739222}
+--- !u!114 &1328649721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328649717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b9d116266606c54885e91aba85f391e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tamborRojo: {fileID: 633393151}
+  tamborAzul: {fileID: 1055376453}
+  tamborVerde: {fileID: 2100321268}
 --- !u!1 &1385498263
 GameObject:
   m_ObjectHideFlags: 0

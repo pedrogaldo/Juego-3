@@ -6,14 +6,11 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
 
-    public SpriteRenderer tamborRojo, tamborAzul, tamborVerde;
-
     public AudioSource srcRojo, srcVerde, srcAzul;
     public AudioClip sndRojo, sndAzul, sndVerde;
 
     public Canvas Canvas1;
     public SpriteRenderer backgroundPausa;
-
 
 
 
@@ -35,120 +32,107 @@ public class GameManager : MonoBehaviour
             backgroundPausa.GetComponent<SpriteRenderer>().enabled = true;
         }
 
+
+
+
         //Tambor Azul (abajo)
-        else if (Input.GetKey(KeyCode.Space))
+        else if (Input.GetKeyDown(KeyCode.Space))
         {
-            tamborAzul.color = Color.white;
             srcAzul.clip = sndAzul;
-            srcAzul.Play();
+            srcAzul.PlayOneShot(sndAzul);
         }
 
          
         //Tambor Verde (derecha)
-        else if (Input.GetKey(KeyCode.Y))
+        else if (Input.GetKeyDown(KeyCode.Y))
         {
-            tamborVerde.color = Color.white;
             srcVerde.clip = sndVerde;
-            srcVerde.Play();
+            srcVerde.PlayOneShot(sndVerde);
         }
 
-        else if (Input.GetKey(KeyCode.U))
+        else if (Input.GetKeyDown(KeyCode.U))
         {
-            tamborVerde.color = Color.white;
             srcVerde.clip = sndVerde;
-            srcVerde.Play();
+            srcVerde.PlayOneShot(sndVerde);
         }
 
 
-        else if (Input.GetKey(KeyCode.I))
+        else if (Input.GetKeyDown(KeyCode.I))
         {
-            tamborVerde.color = Color.white;
             srcVerde.clip = sndVerde;
-            srcVerde.Play();
+            srcVerde.PlayOneShot(sndVerde);
         }
 
-        else if (Input.GetKey(KeyCode.O))
+        else if (Input.GetKeyDown(KeyCode.O))
         {
-            tamborVerde.color = Color.white;
             srcVerde.clip = sndVerde;
-            srcVerde.Play();
+            srcVerde.PlayOneShot(sndVerde);
         }
 
-        else if (Input.GetKey(KeyCode.P))
+        else if (Input.GetKeyDown(KeyCode.P))
         {
-            tamborVerde.color = Color.white;
             srcVerde.clip = sndVerde;
-            srcVerde.Play();
+            srcVerde.PlayOneShot(sndVerde);
         }
 
-        else if (Input.GetKey(KeyCode.H))
+        else if (Input.GetKeyDown(KeyCode.H))
         {
-            tamborVerde.color = Color.white;
             srcVerde.clip = sndVerde;
-            srcVerde.Play();
+            srcVerde.PlayOneShot(sndVerde);
         }
 
-        else if (Input.GetKey(KeyCode.J))
+        else if (Input.GetKeyDown(KeyCode.J))
         {
-            tamborVerde.color = Color.white;
             srcVerde.clip = sndVerde;
-            srcVerde.Play();
+            srcVerde.PlayOneShot(sndVerde);
         }
 
-        else if (Input.GetKey(KeyCode.K))
+        else if (Input.GetKeyDown(KeyCode.K))
         {
-            tamborVerde.color = Color.white;
             srcVerde.clip = sndVerde;
-            srcVerde.Play();
+            srcVerde.PlayOneShot(sndVerde);
         }
 
-        else if (Input.GetKey(KeyCode.L))
+        else if (Input.GetKeyDown(KeyCode.L))
         {
-            tamborVerde.color = Color.white;
             srcVerde.clip = sndVerde;
-            srcVerde.Play();
+            srcVerde.PlayOneShot(sndVerde);
         }
 
-        else if (Input.GetKey(KeyCode.N))
+        else if (Input.GetKeyDown(KeyCode.N))
         {
-            tamborVerde.color = Color.white;
             srcVerde.clip = sndVerde;
-            srcVerde.Play();
+            srcVerde.PlayOneShot(sndVerde);
         }
 
-        else if (Input.GetKey(KeyCode.B))
+        else if (Input.GetKeyDown(KeyCode.B))
         {
-            tamborVerde.color = Color.white;
             srcVerde.clip = sndVerde;
-            srcVerde.Play();
+            srcVerde.PlayOneShot(sndVerde);
         }
 
-        else if (Input.GetKey(KeyCode.M))
+        else if (Input.GetKeyDown(KeyCode.M))
         {
-            tamborVerde.color = Color.white;
             srcVerde.clip = sndVerde;
-            srcVerde.Play();
+            srcVerde.PlayOneShot(sndVerde);
         }
 
-        else if (Input.GetKey(KeyCode.Comma))
+        else if (Input.GetKeyDown(KeyCode.Comma))
         {
-            tamborVerde.color = Color.white;
             srcVerde.clip = sndVerde;
-            srcVerde.Play();
+            srcVerde.PlayOneShot(sndVerde);
         }
 
-        else if (Input.GetKey(KeyCode.Colon))
+        else if (Input.GetKeyDown(KeyCode.Colon))
         {
-            tamborVerde.color = Color.white;
             srcVerde.clip = sndVerde;
-            srcVerde.Play();
+            srcVerde.PlayOneShot(sndVerde);
         }
 
-        else if (Input.GetKey(KeyCode.Semicolon))
+        else if (Input.GetKeyDown(KeyCode.Semicolon))
         {
-            tamborVerde.color = Color.white;
             srcVerde.clip = sndVerde;
-            srcVerde.Play();
+            srcVerde.PlayOneShot(sndVerde);
         }
 
 
@@ -156,131 +140,113 @@ public class GameManager : MonoBehaviour
         //Tambor Rojo (izquierda)
 
 
-        else if (Input.GetKey(KeyCode.Tab))
+        else if (Input.GetKeyDown(KeyCode.Tab))
         {
-            tamborRojo.color = Color.white;
             srcRojo.clip = sndRojo;
-            srcRojo.Play();
+            srcRojo.PlayOneShot(sndRojo);
         }
 
-        else if (Input.GetKey(KeyCode.CapsLock))
+        else if (Input.GetKeyDown(KeyCode.CapsLock))
         {
-            tamborRojo.color = Color.white;
             srcRojo.clip = sndRojo;
-            srcRojo.Play();
+            srcRojo.PlayOneShot(sndRojo);
         }
 
-        else if (Input.GetKey(KeyCode.LeftShift))
+        else if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            tamborRojo.color = Color.white;
             srcRojo.clip = sndRojo;
-            srcRojo.Play();
+            srcRojo.PlayOneShot(sndRojo);
         }
 
-        else if (Input.GetKey(KeyCode.Minus))
+        else if (Input.GetKeyDown(KeyCode.Minus))
         {
-            tamborRojo.color = Color.white;
             srcRojo.clip = sndRojo;
-            srcRojo.Play();
+            srcRojo.PlayOneShot(sndRojo);
         }
 
-        else if (Input.GetKey(KeyCode.Q))
+        else if (Input.GetKeyDown(KeyCode.Q))
         {
-            tamborRojo.color = Color.white;
             srcRojo.clip = sndRojo;
-            srcRojo.Play();
+            srcRojo.PlayOneShot(sndRojo);
         }
 
-        else if (Input.GetKey(KeyCode.W))
+        else if (Input.GetKeyDown(KeyCode.W))
         {
-            tamborRojo.color = Color.white;
             srcRojo.clip = sndRojo;
-            srcRojo.Play();
+            srcRojo.PlayOneShot(sndRojo);
         }
 
-        else if (Input.GetKey(KeyCode.E))
+        else if (Input.GetKeyDown(KeyCode.E))
         {
-            tamborRojo.color = Color.white;
             srcRojo.clip = sndRojo;
-            srcRojo.Play();
+            srcRojo.PlayOneShot(sndRojo);
         }
 
-        else if (Input.GetKey(KeyCode.R))
+        else if (Input.GetKeyDown(KeyCode.R))
         {
-            tamborRojo.color = Color.white;
             srcRojo.clip = sndRojo;
-            srcRojo.Play();
+            srcRojo.PlayOneShot(sndRojo);
         }
 
-        else if (Input.GetKey(KeyCode.T))
+        else if (Input.GetKeyDown(KeyCode.T))
         {
-            tamborRojo.color = Color.white;
             srcRojo.clip = sndRojo;
-            srcRojo.Play();
+            srcRojo.PlayOneShot(sndRojo);
         }
 
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKeyDown(KeyCode.A))
         {
-            tamborRojo.color = Color.white;
             srcRojo.clip = sndRojo;
-            srcRojo.Play();
+            srcRojo.PlayOneShot(sndRojo);
 
         }
 
-        else if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKeyDown(KeyCode.S))
         {
-            tamborRojo.color = Color.white;
             srcRojo.clip = sndRojo;
-            srcRojo.Play();
+            srcRojo.PlayOneShot(sndRojo);
         }
 
-        else if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKeyDown(KeyCode.D))
         {
-            tamborRojo.color = Color.white;
             srcRojo.clip = sndRojo;
-            srcRojo.Play();
+            srcRojo.PlayOneShot(sndRojo);
         }
 
-        else if (Input.GetKey(KeyCode.F))
+        else if (Input.GetKeyDown(KeyCode.F))
         {
-            tamborRojo.color = Color.white;
             srcRojo.clip = sndRojo;
-            srcRojo.Play();
+            srcRojo.PlayOneShot(sndRojo);
         }
 
-        else if (Input.GetKey(KeyCode.G))
+        else if (Input.GetKeyDown(KeyCode.G))
         {
-            tamborRojo.color = Color.white;
             srcRojo.clip = sndRojo;
-            srcRojo.Play();
+            srcRojo.PlayOneShot(sndRojo);
         }
 
-        else if (Input.GetKey(KeyCode.Z))
+        else if (Input.GetKeyDown(KeyCode.Z))
         {
-            tamborRojo.color = Color.white;
             srcRojo.clip = sndRojo;
-            srcRojo.Play();
+            srcRojo.PlayOneShot(sndRojo);
         }
 
-        else if (Input.GetKey(KeyCode.X))
+        else if (Input.GetKeyDown(KeyCode.X))
         {
-            tamborRojo.color = Color.white;
             srcRojo.clip = sndRojo;
-            srcRojo.Play();
+            srcRojo.PlayOneShot(sndRojo);
         }
 
-        else if (Input.GetKey(KeyCode.C))
+        else if (Input.GetKeyDown(KeyCode.C))
         {
-            tamborRojo.color = Color.white;
             srcRojo.clip = sndRojo;
-            srcRojo.Play();
+            srcRojo.PlayOneShot(sndRojo);
         }
 
-        else if (Input.GetKey(KeyCode.V))
+        else if (Input.GetKeyDown(KeyCode.V))
         {
-            tamborRojo.color = Color.white;
             srcRojo.clip = sndRojo;
-            srcRojo.Play();
+            srcRojo.PlayOneShot(sndRojo);
         }
 
 
@@ -289,16 +255,10 @@ public class GameManager : MonoBehaviour
         else
         {
             //tamborVerde.GetComponent<AudioSource>().enabled = false;
-            tamborVerde.GetComponent<SpriteRenderer>();
-            tamborVerde.color = Color.clear;
 
             //tamborAzul.GetComponent<AudioSource>().enabled = false;
-            tamborAzul.GetComponent<SpriteRenderer>();
-            tamborAzul.color = Color.clear;
 
             //tamborRojo.GetComponent<AudioSource>().enabled = false;
-            tamborRojo.GetComponent<SpriteRenderer>();
-            tamborRojo.color = Color.clear;
 
 
             //Canvas1.GetComponent<Canvas>().enabled = false;
