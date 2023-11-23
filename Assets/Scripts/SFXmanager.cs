@@ -17,88 +17,87 @@ public class SFXmanager : MonoBehaviour
     void Update()
     {
         //Tambor Azul (abajo)
-           if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space))
         {
-            tamborAzul.color = Color.white;
+            tamborAzul.color = Color.blue;
         }
 
 
         //Tambor Verde (derecha)
         else if (Input.GetKey(KeyCode.Y))
         {
-            tamborVerde.color = Color.white;
-
+            tamborVerde.color = Color.green;
         }
 
         else if (Input.GetKey(KeyCode.U))
         {
-            tamborVerde.color = Color.white;
+            tamborVerde.color = Color.green;
         }
 
 
         else if (Input.GetKey(KeyCode.I))
         {
-            tamborVerde.color = Color.white;
+            tamborVerde.color = Color.green;
         }
 
         else if (Input.GetKey(KeyCode.O))
         {
-            tamborVerde.color = Color.white;
+            tamborVerde.color = Color.green;
         }
 
         else if (Input.GetKey(KeyCode.P))
         {
-            tamborVerde.color = Color.white;
+            tamborVerde.color = Color.green;
         }
 
         else if (Input.GetKey(KeyCode.H))
         {
-            tamborVerde.color = Color.white;
+            tamborVerde.color = Color.green;
         }
 
         else if (Input.GetKey(KeyCode.J))
         {
-            tamborVerde.color = Color.white;
+            tamborVerde.color = Color.green;
         }
 
         else if (Input.GetKey(KeyCode.K))
         {
-            tamborVerde.color = Color.white;
+            tamborVerde.color = Color.green;
         }
 
         else if (Input.GetKey(KeyCode.L))
         {
-            tamborVerde.color = Color.white;
+            tamborVerde.color = Color.green;
         }
 
         else if (Input.GetKey(KeyCode.N))
         {
-            tamborVerde.color = Color.white;
+            tamborVerde.color = Color.green;
         }
 
         else if (Input.GetKey(KeyCode.B))
         {
-            tamborVerde.color = Color.white;
+            tamborVerde.color = Color.green;
         }
 
         else if (Input.GetKey(KeyCode.M))
         {
-            tamborVerde.color = Color.white;
+            tamborVerde.color = Color.green;
         }
 
         else if (Input.GetKey(KeyCode.Comma))
         {
-            tamborVerde.color = Color.white;
+            tamborVerde.color = Color.green;
         }
 
         else if (Input.GetKey(KeyCode.Colon))
         {
-            tamborVerde.color = Color.white;
+            tamborVerde.color = Color.green;
         }
 
         else if (Input.GetKey(KeyCode.Semicolon))
         {
-            tamborVerde.color = Color.white;
+            tamborVerde.color = Color.green;
         }
 
 
@@ -108,109 +107,92 @@ public class SFXmanager : MonoBehaviour
 
         else if (Input.GetKey(KeyCode.Tab))
         {
-            tamborRojo.color = Color.white;
-
+            tamborRojo.color = Color.red;
         }
 
         else if (Input.GetKey(KeyCode.CapsLock))
         {
-            tamborRojo.color = Color.white;
-
+            tamborRojo.color = Color.red;
         }
 
         else if (Input.GetKey(KeyCode.LeftShift))
         {
-            tamborRojo.color = Color.white;
-
+            tamborRojo.color = Color.red;
         }
 
         else if (Input.GetKey(KeyCode.Minus))
         {
-            tamborRojo.color = Color.white;
-
+            tamborRojo.color = Color.red;
         }
 
         else if (Input.GetKey(KeyCode.Q))
         {
-            tamborRojo.color = Color.white;
-
+            tamborRojo.color = Color.red;
         }
 
         else if (Input.GetKey(KeyCode.W))
         {
-            tamborRojo.color = Color.white;
-
+            tamborRojo.color = Color.red;
         }
 
         else if (Input.GetKey(KeyCode.E))
         {
-            tamborRojo.color = Color.white;
-
+            tamborRojo.color = Color.red;
         }
 
         else if (Input.GetKey(KeyCode.R))
         {
-            tamborRojo.color = Color.white;
-
+            tamborRojo.color = Color.red;
         }
 
         else if (Input.GetKey(KeyCode.T))
         {
-            tamborRojo.color = Color.white;
-
+            tamborRojo.color = Color.red;
         }
 
         else if (Input.GetKey(KeyCode.A))
         {
-            tamborRojo.color = Color.white;
-
+            tamborRojo.color = Color.red;
         }
 
         else if (Input.GetKey(KeyCode.S))
         {
-            tamborRojo.color = Color.white;
-
+            tamborRojo.color = Color.red;
         }
 
         else if (Input.GetKey(KeyCode.D))
         {
-            tamborRojo.color = Color.white;
-
+            tamborRojo.color = Color.red;
         }
 
         else if (Input.GetKey(KeyCode.F))
         {
-            tamborRojo.color = Color.white;
-
+            tamborRojo.color = Color.red;
         }
 
         else if (Input.GetKey(KeyCode.G))
         {
-            tamborRojo.color = Color.white;
-
+            tamborRojo.color = Color.red;
         }
 
         else if (Input.GetKey(KeyCode.Z))
         {
-            tamborRojo.color = Color.white;
-
+            tamborRojo.color = Color.red;
         }
 
         else if (Input.GetKey(KeyCode.X))
         {
-            tamborRojo.color = Color.white;
-
+            tamborRojo.color = Color.red;
         }
 
         else if (Input.GetKey(KeyCode.C))
         {
-            tamborRojo.color = Color.white;
-
+            tamborRojo.color = Color.red;
         }
 
         else if (Input.GetKey(KeyCode.V))
         {
-            tamborRojo.color = Color.white;
+            tamborRojo.color = Color.red;
         }
 
 

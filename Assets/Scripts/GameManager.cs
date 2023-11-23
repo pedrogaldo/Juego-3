@@ -5,33 +5,59 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-
     public AudioSource srcRojo, srcVerde, srcAzul;
     public AudioClip sndRojo, sndAzul, sndVerde;
 
     public Canvas Canvas1;
     public SpriteRenderer backgroundPausa;
+    public Color colorPausa = Color.black;
 
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        Canvas1.GetComponent<Canvas>().enabled = false;
+        Canvas1.GetComponent<SpriteRenderer>().enabled = false;
+
+
+        colorPausa = Color.black;
+        colorPausa.a = 0.43f;
+        backgroundPausa.GetComponent<SpriteRenderer>().color = colorPausa;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        if (Input.GetKey(KeyCode.Escape))
+        //menu pausa
+        if (Canvas1.GetComponent<Canvas>().enabled == true)
         {
-            //tamborVerde.GetComponent<AudioSource>().enabled = false;
-
+            Canvas1.GetComponent<AudioSource>().enabled = true;
+            //Canvas1.GetComponent<SpriteRenderer>().color = colorPausa;
             Canvas1.GetComponent<Canvas>().enabled = true;
+
             backgroundPausa.GetComponent<SpriteRenderer>().enabled = true;
+
+
         }
 
+        if (Canvas1.GetComponent<Canvas>().enabled == false)
+        {
+            Canvas1.GetComponent<AudioSource>().enabled = false;
+            backgroundPausa.GetComponent<SpriteRenderer>().color = Color.clear;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Canvas1.GetComponent<Canvas>().enabled = true;
+            backgroundPausa.GetComponent<SpriteRenderer>().enabled = true;
+
+            backgroundPausa.GetComponent<SpriteRenderer>().color = colorPausa;
+
+            Canvas1.GetComponent<AudioSource>().enabled = true;
+        }
+        //
 
 
 
@@ -42,7 +68,7 @@ public class GameManager : MonoBehaviour
             srcAzul.PlayOneShot(sndAzul);
         }
 
-         
+
         //Tambor Verde (derecha)
         else if (Input.GetKeyDown(KeyCode.Y))
         {
